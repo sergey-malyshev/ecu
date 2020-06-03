@@ -31,6 +31,7 @@
 #include "led1.h"
 #include "led2.h"
 #include "led3.h"
+#include "led4.h"
 
 /* Application Entry Point. Попадаем сюда из Reset_Handler после начальной инициализации */
 int main(void)
@@ -51,6 +52,11 @@ int main(void)
 	/* LED3  */
 	xTaskCreate( vTaskLED3, ( const char * const ) "LED3", configMINIMAL_STACK_SIZE, NULL, 2,
 		                            ( xTaskHandle * ) &pxTaskLed3);
+
+	/* LED4  */
+	xTaskCreate( vTaskLED4, ( const char * const ) "LED4", configMINIMAL_STACK_SIZE, NULL, 2,
+									( xTaskHandle * ) &pxTaskLed4);
+
 	/*---------------------------------------------------------------------------------------*/
 
 	/* Запускаем планировщик задач */

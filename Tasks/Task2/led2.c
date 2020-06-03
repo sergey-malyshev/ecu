@@ -14,7 +14,7 @@
 /****************************************************************/
 
 /****************************************************************/
-// ������������� 
+// �������������
 /****************************************************************/
 void Led2Init (void)
 {
@@ -77,14 +77,14 @@ void vTaskLED2(void *pvParameters)
 {
 	/* ������������� �������� ������*/
 	Led2Init();
-	KLineInit();
+//	KLineInit();
 	/* ����������� ���� ������ */
 	for (;;) 
 	{
-//		GPIO_SetBits(GPIOD, GPIO_Pin_13);
-//        vTaskDelay(pdMS_TO_TICKS(500));
-//        GPIO_ResetBits(GPIOD, GPIO_Pin_13);
-//        vTaskDelay(pdMS_TO_TICKS(500));
+		GPIO_SetBits(GPIOD, GPIO_Pin_13);
+        vTaskDelay(pdMS_TO_TICKS(1000));
+        GPIO_ResetBits(GPIOD, GPIO_Pin_13);
+        vTaskDelay(pdMS_TO_TICKS(1000));
     }
 }
 

@@ -37,7 +37,7 @@ extern USB_OTG_CORE_HANDLE  USB_OTG_dev;
 /****************************************************************/
 
 /****************************************************************/
-// ������������� 
+// �������������
 /****************************************************************/
 void Led1Init (void)
 {
@@ -62,9 +62,9 @@ void vTaskLED1(void *pvParameters)
 	for (;;) 
 	{
 		GPIO_SetBits(GPIOD, GPIO_Pin_12);
-      vTaskDelay(pdMS_TO_TICKS(1000));
+      vTaskDelay(pdMS_TO_TICKS(500));
         GPIO_ResetBits(GPIOD, GPIO_Pin_12);
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        vTaskDelay(pdMS_TO_TICKS(500));
 /*		if(OutBuffer[0] == 'S')
 		{
 			GPIO_SetBits(GPIOD, GPIO_Pin_12);
