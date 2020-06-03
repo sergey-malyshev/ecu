@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1893510791/PATH/delimiter=;
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1893510791/PATH/operation=replace
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1893510791/PATH/value=D\:\\Vector\\gcc-arm-none-eabi-5_4-2016\\bin;D\:/OpenJDK/jdk-11/bin/server;D\:/OpenJDK/jdk-11/bin;C\:\\WINDOWS\\system32;C\:\\WINDOWS;C\:\\WINDOWS\\System32\\Wbem;C\:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;D\:\\OpenJDK\\jdk-11\\bin;D\:\\Programms\\gradle-6.2.2\\bin;C\:\\Program Files\\Git\\cmd;C\:\\Program Files (x86)\\gnupg\\bin;C\:\\Program Files (x86)\\Gpg4win\\..\\GnuPG\\bin;C\:\\Program Files (x86)\\Nmap;D\:\\Vector\\eclipse;D\:\\Vector\\GNU MCU Eclipse\\Build Tools\\2.12-20190422-1053\\bin
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1893510791/append=true
+environment/project/ilg.gnuarmeclipse.managedbuild.cross.config.elf.debug.1893510791/appendContributed=true
